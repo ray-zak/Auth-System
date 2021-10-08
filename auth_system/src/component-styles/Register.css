@@ -1,0 +1,41 @@
+.register_form{
+    display: flex;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 200px;
+    padding: 20px;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.email, .password, .username,.confirmed_password, .submit{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: dodgerblue;
+
+}
+.label{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 5px;
+    width:200px;
+    height: 50px;
+    padding: 5px;
+    margin-left: 44%;
+    margin-bottom: -75px;
+
+}
+.label_text{
+    color: dodgerblue;
+}
+.submit{
+    cursor: pointer;
+}
